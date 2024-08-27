@@ -2,3 +2,15 @@ h1 {
     color:gold;
     text-align: center;
 }
+
+h3 {
+    color: gold
+}
+
+body {
+    background-color: rgb(161, 0, 0)
+}
+
+p {
+    color:rgb(255, 255, 255)
+}
