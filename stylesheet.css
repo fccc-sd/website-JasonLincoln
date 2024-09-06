@@ -50,7 +50,42 @@ h6 {
         }
         
         :link{
-            color: rgb(110, 215, 250)
+            color: rgb(110, 215, 250);
+          }
+        :visited 
+        {
+            color: rgb(110, 215, 250);
+        }
+
+          nav
+          {
+            background-color: darkblue;
+            line-height: 200%;
+            display: block;
+          }
+          nav li
+          {
+            display: inline;
+            padding-right: 40px;
+            list-style-type: none;
           }
 
+          nav a:link
+          {
+            color:white;
+            text-decoration:none
+          }
+          nav a:visited
+          {
+            color:white;
+          }
+          nav a:hover
+          {
+            text-decoration:underline;
+          }
+          nav a:active
+          {
+            color:red;
+            text-decoration:underline;
+          }
 
