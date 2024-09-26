@@ -89,3 +89,15 @@ h6 {
             text-decoration:underline;
           }
 
+          table
+          {
+              border: solid 2px white;
+              color: white;
+          }
+
+          tr, td, th
+          {
+            border: solid 2px white;
+            color: white;
+          }
+
