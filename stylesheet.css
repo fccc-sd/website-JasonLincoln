@@ -92,7 +92,7 @@ h6 {
           table
           {
               border: solid 2px white;
-              color: white
+              border-collapse: collapse;
           }
 
           tr, td, th
