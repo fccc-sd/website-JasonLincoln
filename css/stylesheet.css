@@ -93,11 +93,20 @@ h6 {
           {
               border: solid 2px white;
               border-collapse: collapse;
+              
           }
 
           tr, td, th
           {
             border: solid 2px white;
+            color: white;
+          }
+          caption
+          {
+            color: white;
+          }
+          #topofmyhobbies
+          {
             color: white
           }
 
