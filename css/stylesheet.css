@@ -93,7 +93,7 @@ h6 {
           {
               border: solid 2px white;
               border-collapse: collapse;
-              
+              margin: 20px;
           }
 
           tr, td, th
@@ -109,4 +109,5 @@ h6 {
           {
             color: white
           }
+          
 
