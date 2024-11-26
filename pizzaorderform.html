@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This page contains a Pizza Order Form">
+    <meta name="keywords" content="Jason, Lincoln, Jason Lincoln, Jay, Jay Lincoln, 4 county, Four County">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href ="css/stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Pizza Order Form</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" alt="Link to home page" title="Home Page">Home</a></li>
+            <li><a href="myhobbies.html" alt="link to my hobbies page" title="My Hobbies">Hobbies</a></li>
+            <li><a href="myschoolcareer.html" alt="link to my school career page" title="My School Career">School Career</a></li>
+            <li><a href="ccptable.html" alt ="link to my college credit plus page" title="College Cedit Plus Tables">College Credit Plus Tables</a></li>
+            <li><a href="pizzaorderform.html" alt="Link to Extra Pages" title="Extra Pages">Extra Pages</a></li>
+        </ul>
+    </nav>
+
+    <h2>Contact Information</h2>
+
+    <form id="Pizza_Order_Form" action="my_pizza_order_form.php" method="post">    
+        <p>First Name: <input type="text" name="FirstName" id="FirstName" autofocus></p>
+        <p>Last Name: <input type="text" name="LastName" id="LastName"></p>
+        <p>Address: <input type="text" name="Address" id="Address"></p>
+        <p>Phone Number: <input type="text" name="PhoneNumber" id="PhoneNumber"></p>
+        
+    </form>
+    
+    <h2>Pizza Size Options</h2>
+
+    <form>
+        <fieldset>
+            <input type="checkbox" name="Small" id="Small" value="Small">
+            <label for="Small">Small</label> <br>
+            <input type="checkbox" name="Medium" id="Medium" value="Medium">
+            <label for="Medium">Medium</label> <br>
+            <input type="checkbox" name="Large" id="Large" value="Large">
+            <label for="Large">Large</label>
+        </fieldset>
+    </form>
+
+    <h2>Pizza Topping Choices</h2>
+
+    <form>
+        <fieldset>
+            <input type="checkbox" name="Pepperoni" id="Pepperoni" value="Pepperoni">
+            <label for="Pepperoni">Pepperoni</label><br>
+            <input type="checkbox" name="Sausage" id="Sausage" value="Sausage">
+            <label for="Sausage">Sausage</label><br>
+            <input type="checkbox" name="Extra Cheese" id="Extra Cheese" value="Extra Cheese">
+            <label for="Extra Cheese">Extra Cheese</label><br>
+            <input type="checkbox" name="Bacon" id="Bacon" value="Bacon">
+            <label for="Bacon">Bacon</label><br>
+            <input type="checkbox" name="Black Olives" id="Black Olives" value="Black Olives">
+            <label for="Black Olives">Black Olives</label><br>
+            <input type="checkbox" name="Banana Peppers" id="Banana Peppers" value="Banana Peppers">
+            <label for="Banana Peppers">Banana Peppers</label><br>
+            <input type="checkbox" name="Chicken" id="Chicken" value="Chicken">
+            <label for="Chicken">Chicken</label><br>
+            <input type="checkbox" name="Ham" id="Ham" value="Ham">
+            <label for="Ham">Ham</label><br>
+            <input type="checkbox" name="Mushrooms" id="Mushrooms" value="Mushrooms">
+            <label for="Mushrooms">Mushrooms</label><br>
+            <input type="checkbox" name="Onions" id="Onions" value="Onions">
+            <label for="Onions">Onions</label><br>
+            <input type="checkbox" name="Green Peppers" id="Green Peppers" value="Green Peppers">
+            <label for="Green Peppers">Green Peppers</label><br>
+            <input type="checkbox" name="Pineapple" id="Pineapple" value="Pineapple">
+            <label for="Pineapple">Pineapple</label><br>
+            <input type="checkbox" name="Spinach" id="Spinach" value="Spinach">
+            <label for="Spinach">Spinach</label><br>
+            <input type="checkbox" name="No Toppings" id="No Toppings" value="No Toppings">
+            <label for="No Toppings">No Toppings</label>
+        </fieldset>
+    </form>
+
+    <h2>Notes To The Cook</h2>
+
+    <form>
+        <textarea name="Notes To The Cook" id="NotesToTheCook" cols="60" rows="10"></textarea>
+    </form>
+    
+    <form>
+        <p><input id="submit" type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>

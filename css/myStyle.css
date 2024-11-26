@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header 
+{
+    color:rgb(136,0,0);
+    text-align: center;
+    font-size: 2.25em;
+    line-height: 2em;
+}
+
+h3
+{
+    color: rgb(136,0,0);
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background-color: rgb(12, 96, 175);
+}
+
+.image
+{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p
+{
+    color: white
+}
+#container
+{
+    width: 960px;
+    margin: 0 auto;
+    background-color:rgb(10, 3, 48);
+}
+
+header
+{
+    height: 70px;
+    background-color: rgb(49, 55, 131);
+}
+
+nav
+{
+    width: 540px;
+    text-align: center;
+    background-color: rgb(23, 132, 204);
+    padding: 10px 230px 10px 190px;
+    margin: 10px 0px 10px 0px
+}
+nav li
+{
+    display:inline;
+    list-style-type: none;
+    padding-right: 40px;
+    text-align:center;
+}
+
+aside
+{
+    color:white;
+    width: 440px;
+    height: 400px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgb(49, 55, 131);
+    float:left;
+}    
+aside ul
+{
+    padding: 10px;
+}
+
+section
+{
+    color:white;
+    width: 440px;
+    height: 400px;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    background-color: rgb(49, 55, 131);
+    float: right;
+}
+
+footer
+{   
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+    padding: 10px;
+    clear: both;
+}
+
+:link
+{
+    color: red;
+}
+
+:visited
+{
+    color: red;
+}
+
+table
+{
+    border: solid 2px white;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+tr, td, th
+{
+    padding:5px;
+    border: solid 2px white;
+    color: white;
+}
+caption
+{
+    font-size:1.5em;
+    color: white;
+    padding: 10px;
+}
+
+#topofmyhobbies
+{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
