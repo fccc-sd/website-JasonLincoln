@@ -1,33 +1,109 @@
 body {
     background-color: #880808;
-    color: white;
+    color: black;
 }
-ul{
-   list-style-type: none;
-   margin:0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #333;
-   margin-bottom: 20px;
+ul {
+    list-style-type: none;
 }
+
 
 li {
-    float: left;
+    list-style-type: upper-roman;
 }
 
-li a{
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover{
+    color:#333
+}
+
+h2, h3 {
+    text-align: center;
+    background-color:#8D918D;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+nav a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-li a:hover{
-    background-color: #111;
+nav a:hover {
+    color:red;
 }
 
-h2 {
-    text-align: center;
+.navbar_entry {
+    float: left;
+    list-style-type: none;
+}
 
+.game-flex-box-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.game-left-side,
+.game-right-side,
+.game-top {
+    background-color: #8D918D;
+}
+
+.game-left-side{
+    display:flex;
+    flex-direction: column;
+    float: left;
+    margin: 5px;
+}
+
+.game-right-side{
+    display:flex;
+    flex-direction: column;
+    float: right;
+    margin: 5px;
+}
+
+.game-top{
+    display:flex;
+
+}
+
+.flex-box-container{
+    background-color:#8D918D;
+    padding: 10px;
+}
+
+.text {
+    background-color:#8D918D;
+    padding: 10px;
+}
+
+.anime-header,
+.movies-header,
+.tvshows-header,
+.tvshows-movies-main-header,
+.graduation-plans-main-header,
+.main-page-main-header{
+    background-color:black;
+    color:white;
+    margin:0px;
 }
